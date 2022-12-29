@@ -1,0 +1,41 @@
+.coin-icon {
+	max-width: 1.4rem;
+	max-height: 1.4rem;
+}
+.crypto-currencies-page .search-bar input {
+	margin-left: 43%;
+	margin-top: 2rem;
+	width: 17%;
+	height: 50px;
+	border: 3px solid rgba(0, 0, 0, 0.637);
+	border-radius: 5px;
+}
+.crypto-currencies-grid {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 5%;
+	row-gap: 4%;
+}
+.crypto-currencies-grid a {
+	text-decoration: none;
+	color: black;
+}
+.crypto-currencies-grid a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+.coin-grid-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.coin-grid-body p {
+	padding-bottom: 4%;
+}

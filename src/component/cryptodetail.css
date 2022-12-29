@@ -1,0 +1,29 @@
+.title {
+	text-align: center;
+}
+.cryptodetail-page {
+	margin-left: 2%;
+}
+
+.coin-stats {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.value-stats h2 {
+	text-align: center;
+	background-color: #add8e6;
+}
+.outher-value-stats h2 {
+	text-align: center;
+	background-color: #add8e6;
+}
+.value-stats h3 {
+	text-align: center;
+}
+.outher-value-stats h3 {
+	text-align: center;
+}
+.value-stats {
+	justify-content: space-between;
+}
